@@ -120,9 +120,6 @@ Address 1:
 
 ... (Other supported cryptocurrencies)
 
-Generate Multiple Mnemonics and Addresses
-```bash
-```
 ## Security Considerations
 
 1. **Protect Your Mnemonics and Keys**: Mnemonics and derived keys can be used to access cryptocurrency funds. Ensure they are stored securely and never shared publicly.
