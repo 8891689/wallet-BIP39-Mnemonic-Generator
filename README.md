@@ -75,13 +75,13 @@ This command will generate a 12-word mnemonic and derive an address for each sup
   ```
 - `-p, --passphrase`: Passphrase for the seed (optional).
   ```bash
-  -p "your_secure_passphrase"
+  -p your_secure_passphrase
   ```
 
 ### Complete Command Example
 Generate 3 mnemonics, each with 24 words, and derive 2 addresses for each mnemonic using a passphrase:
 ```bash
-python mnemonic_derivation.py -l 24 -n 3 -a 2 -p "mySecretPassphrase"
+python mnemonic_derivation.py -l 24 -n 3 -a 2 -p mySecretPassphrase
 ```
 
 ### Example
@@ -122,10 +122,7 @@ Address 1:
 
 Generate Multiple Mnemonics and Addresses
 ```bash
-python mnemonic_derivation.py -l 24 -n 2 -a 3
 ```
-This command will generate 2 mnemonics, each with 24 words, and derive 3 addresses for each supported cryptocurrency per mnemonic.
-
 ## Security Considerations
 
 1. **Protect Your Mnemonics and Keys**: Mnemonics and derived keys can be used to access cryptocurrency funds. Ensure they are stored securely and never shared publicly.
