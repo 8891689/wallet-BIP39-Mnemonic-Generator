@@ -18,8 +18,8 @@ Follow the steps below to set up the project on your local machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mnemonic-generator.git
-cd mnemonic-generator
+git clone https://github.com/8891689/wallet-BIP39-Mnemonic-Generator.git
+cd wallet-BIP39-Mnemonic-Generator
 ```
 
 ### 2. Set Up a Virtual Environment
